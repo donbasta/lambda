@@ -1,6 +1,0 @@
-myButLast :: [a] -> a
-myButLast [] = "error, empty list"
-myButLast [_] = "error only 1 element found"
-myButLast (x:xs) =
-  if length xs == 1 then x
-  else myButLast xs
